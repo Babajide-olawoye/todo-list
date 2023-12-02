@@ -15,11 +15,13 @@ public class TodoController {
 
     @GetMapping
     public List<Todo> getAllTodos() {
+        System.out.println("Hello from get all todos");
         return todoRepository.findAll();
     }
 
     @PostMapping
     public Todo createTodo(@RequestBody Todo todo) {
+        System.out.println(todo.getTitle());
         return todoRepository.save(todo);
     }
 
@@ -29,6 +31,7 @@ public class TodoController {
 
         todo.setTitle(todoDetails.getTitle());
         todo.setCompleted(todoDetails.isCompleted());
+        todoRepository.save(todo);
 
     }
 
