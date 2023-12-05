@@ -1,0 +1,59 @@
+.new-todo-form {
+    border: solid;
+    border-width: medium;
+    border-radius: 15%;
+    padding: 15px;
+    flex: 1;
+    height: 20%;
+    width: 50%;
+    justify-content: space-between;
+}
+
+.form-body button {
+    padding-top: 11px;
+    padding-bottom: 11px;
+    width: 60%;
+}
+
+.form-body {
+    display: flex;
+    margin: 5px;
+    flex-direction: column;
+    height: 100%;
+    justify-content: space-between;
+    align-items: center;    
+}
+
+.form-body-inner {
+    display: flex;
+    flex-direction: column;
+    height: 50%;
+    justify-content: space-around;
+}
+
+#form-input {
+    padding: 5px;
+}
+
+.form-body button {
+    padding: 5px;
+}
+
+.form-complete-checkbox {
+    display: flex;
+    justify-content: space-between;
+}
+
+.h{
+    flex: 1;
+}
+
+.i {
+    flex: 4;
+    background-color: aqua;
+}
+
+.random {
+    display: flex;
+    height: 100vh;
+}

@@ -6,16 +6,21 @@
     display: flex;
     flex: 3;
     align-items: center;
+    justify-content: space-between;
   }
   
-  .logo {
-    color: #fff;
-    background-color: aqua;
-    font-size: 1.5rem;
-    font-weight: bold;
-    flex: 2;
-    justify-items: center;
+  .nav-logo {
+    display: flex;
+    flex: 1;
 
+  }
+
+  .nav-title {
+    display: flex;
+    flex: 1;
+    color: #fff;
+    font-weight: bold;
+    font-size: 2rem;
   }
   
   .nav-list {
